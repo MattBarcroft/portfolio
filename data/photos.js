@@ -1,0 +1,88 @@
+const photos = [
+  {
+    id: 1,
+    url: "./images/gallery/arran.jpg",
+    title: "Running up Goatfell",
+    description: "A challenging run with stunning views",
+    location: "Scottish Highlands",
+  },
+  {
+    id: 2,
+    url: "./images/gallery/arran2.jpg",
+    title: "Arran Sunset",
+    description: "",
+    location: "Isle of Arran",
+  },
+  {
+    id: 3,
+    url: "./images/gallery/peaks.jpg",
+    title: "Climbing with the lads",
+    description: "Stanage Edge in the Peak District",
+    location: "Peak District",
+  },
+  {
+    id: 4,
+    url: "./images/gallery/cornwall.jpg",
+    title: "On SUP board with Isla",
+    description: "Near Bude",
+    location: "Cornwall",
+  },
+  {
+    id: 5,
+    url: "./images/gallery/lakes.jpg",
+    title: "Lake district",
+    description: "On a Bob Graham Round training run",
+    location: "Lake District",
+  },
+  {
+    id: 6,
+    url: "./images/gallery/lakes2.jpg",
+    title: "Catbells",
+    description: "Anohther Bob Graham Round training run",
+    location: "Lake District",
+  },
+  {
+    id: 7,
+    url: "./images/gallery/nz.jpg",
+    title: "Tongarero crossing",
+    description: "EPIC run in New Zealand",
+    location: "New Zealand",
+  },
+  {
+    id: 8,
+    url: "./images/gallery/lisbon.jpg",
+    title: "Big old boy",
+    description: "Lison",
+    location: "Lisbon",
+  },
+  {
+    id: 9,
+    url: "./images/gallery/ski.jpg",
+    title: "Alps",
+    description: "",
+    location: "Alps",
+  },
+  {
+    id: 10,
+    url: "./images/gallery/skye.jpg",
+    title: "Isle of Skye with Isla",
+    description: "Isle of Skye",
+    location: "Skye",
+  },
+  {
+    id: 11,
+    url: "./images/gallery/peaks2.jpg",
+    title: "Running near Magpie Mine",
+    description: "Running near magpie mine",
+    location: "Peaks",
+  },
+  {
+    id: 12,
+    url: "./images/gallery/peaks3.jpg",
+    title: "Cloud inversion at the Roaches",
+    description: "Roaches",
+    location: "Peak District",
+  },
+];
+
+export default photos;

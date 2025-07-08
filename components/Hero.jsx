@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 lg:px-8 bg-cover bg-center">
+    <section className="min-h-screen flex items-center justify-center px-6 lg:px-8 bg-cover bg-center relative">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           <h1 className="text-6xl md:text-8xl font-thin tracking-tight mb-6 animate-fade-in">
@@ -12,6 +12,7 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-400 font-light tracking-wide animate-slide-up">
             Hello and welcome to my portfolio! Please feel free to take a look
             around and download my CV at the bottom of the page.
+            <br></br>
           </p>
         </div>
 
@@ -25,12 +26,17 @@ const Hero = () => {
           </a>
         </div>
       </div>
+
       <img
         src="/images/doggo.jpg"
         alt="Hero Background"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
         style={{ zIndex: "0" }}
       ></img>
+
+      <div className="absolute bottom-4 right-4 text-xs text-gray-500 z-10">
+        Background photo courtesy of Jon Pemberton 💪
+      </div>
     </section>
   );
 };
