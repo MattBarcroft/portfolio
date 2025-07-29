@@ -1,4 +1,4 @@
-import { Github, ExternalLink, Code } from "lucide-react";
+import { Github } from "lucide-react";
 import { learningProjects } from "../data/learningProjects";
 import { workProjects } from "../data/workProjects";
 

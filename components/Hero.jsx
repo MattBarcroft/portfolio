@@ -11,12 +11,20 @@ const Hero = () => {
           <div className="w-24 h-px bg-white mx-auto mb-8"></div>
           <p className="text-xl md:text-2xl text-gray-400 font-light tracking-wide animate-slide-up">
             Hello and welcome to my portfolio! Please feel free to take a look
-            around and download my CV at the bottom of the page.
+            around and download my CV.
             <br></br>
           </p>
         </div>
+        <div className="flex items-center space-x-4 z-10 relative justify-center">
+          <button
+            onClick={() => window.open("./MatthewBarcroftCV.pdf")}
+            className="font-bold rounded-lg text-xl  w-80 h-16 bg-[#434343] text-[#ffffff] justify-center"
+          >
+            DOWNLOAD CV
+          </button>
+        </div>
 
-        <div className="flex justify-center relative z-10">
+        <div className="flex justify-center relative z-10 pt-8">
           <a
             href="#work"
             className="group flex items-center space-x-3 text-gray-400 hover:text-white transition-colors duration-300"
