@@ -69,7 +69,7 @@ const Hero = () => {
         <div className="flex items-center space-x-4 z-10 relative justify-center">
           <button
             onClick={() => window.open("./MatthewBarcroftCV.pdf")}
-            className="font-bold rounded-lg text-xl w-80 h-16 bg-[#434343] text-[#ffffff] justify-center"
+            className="text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center font-bold rounded-lg text-xl  w-80 h-16 bg-[#434343] text-[#ffffff] justify-center"
           >
             DOWNLOAD CV
           </button>
