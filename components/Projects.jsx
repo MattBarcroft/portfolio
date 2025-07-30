@@ -25,7 +25,6 @@ const Projects = ({ type }) => {
   const sectionTitle =
     type === "learning" ? "LEARNING & DEVELOPMENT PROJECTS" : "WORK PROJECTS";
 
-  console.log("sectionTitle", sectionTitle);
   return (
     <section id="work" className="py-24 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
